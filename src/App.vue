@@ -24,7 +24,7 @@ import Pessoa from './components/Pessoa.vue'
   }
 </script>
 
-<style>
+<style> /*css global */
   body {
     background-color: #333;
     color: #fff;

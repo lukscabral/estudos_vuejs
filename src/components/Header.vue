@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped> /* css so pro header*/
     ul {
         list-style: none;
         display: flex;
