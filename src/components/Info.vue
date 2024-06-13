@@ -1,4 +1,5 @@
 <template>
+    <p>{{ compEmail }}</p>
     <p v-if="esta_trabalhando">Estou trabalhando no momento.</p>
     <p v-else>Estou em busca de novas oportunidades!</p>
     <p>Utilizo as seguintes tecnologias para backend:</p>
@@ -30,11 +31,14 @@ export default {
     components: {
         Picture
     },
+    props: {
+        email: String,
+        esta_trabalhando: Boolean  //Boolean é case sensitive(deu erro com minusculo)
+    },
+
     data() {
         return {
-            esta_trabalhando: false,
             mostrar_email: false,
-            email: 'lucas@email.com',
             meu_link: 'https://lukscabral.github.io',
             textoBotao: 'Mostrar email',
             backend_technologies: ['JavaScript', 'PHP', 'Python'],
