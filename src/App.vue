@@ -1,33 +1,40 @@
 <template>
-  <Header :esta_logado="true"/>
-  <PrimeiroComponente />
-  <LifeCycle />
-  <Pessoa />
+  <Navbar :logo="logo_src" :alt="app_name"/>
+  <router-view/>
+  <Footer />
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import PrimeiroComponente from './components/PrimeiroComponente.vue'
-import LifeCycle from './components/LifeCycle.vue'
-import Pessoa from './components/Pessoa.vue'
-
-
-  export default {
-    name: 'app',
-    components: {
-      Header,
-      PrimeiroComponente,
-      LifeCycle,
-      Pessoa,
-      
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
+export default {
+  components: {
+    Navbar,
+    Footer
+  },
+  data() {
+    return {
+      logo_src: "/img/logo.png",
+      app_name: "Make Your Burguer"
     }
   }
+}
 </script>
-
-<style> /*css global */
-  body {
-    background-color: #333;
-    color: #fff;
+<style>
+  * {
+    font-family: Helvetica;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
   }
-
+  .main-container {
+    margin:50px;
+    min-height:250px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #222;
+  }
 </style>

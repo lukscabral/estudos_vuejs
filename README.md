@@ -1,4 +1,4 @@
-# estudos_vuejs
+# vue
 
 ## Project setup
 ```
