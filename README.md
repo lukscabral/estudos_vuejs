@@ -1,19 +1,14 @@
-# vue
+# Mini projeto de Vue 3 
+
+##Curso Vue 3 do canal: https://www.youtube.com/@MatheusBattisti
 
 ## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+> git clone https://github.com/lukscabral/estudos_vuejs.git
 
-### Compiles and minifies for production
-```
-npm run build
-```
+> npm run serve
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+> npm run backend
+
+
+

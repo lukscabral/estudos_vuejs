@@ -98,25 +98,7 @@
       "opcionais": [
         "Cheddar"
       ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "c3bc",
-      "name": "",
-      "carne": "",
-      "pao": "",
-      "opcionais": [],
-      "status": "Solicitado"
-    },
-    {
-      "id": "7ab6",
-      "name": "kghjghgj",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon"
-      ],
-      "status": "Solicitado"
+      "status": "Em produção"
     },
     {
       "id": "d4d9",
@@ -126,7 +108,7 @@
       "opcionais": [
         "Cebola roxa"
       ],
-      "status": "Solicitado"
+      "status": "Finalizado"
     }
   ]
 }
